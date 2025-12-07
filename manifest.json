@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Countdown New Tab",
+  "version": "1.0",
+  "description": "Replaces new tab with your countdown page",
+  
+  "chrome_url_overrides": {
+    "newtab": "countdown.html"
+  }
+}
