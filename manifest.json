@@ -1,8 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "Countdown New Tab",
+  "name": "Life Countdown New Tab",
   "version": "1.0",
   "description": "Replaces new tab with your countdown page",
+  "action": {
+    "default_icon": "icon.png"
+  },
+
   
   "chrome_url_overrides": {
     "newtab": "countdown.html"
